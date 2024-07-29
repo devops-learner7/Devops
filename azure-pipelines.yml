@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: VDST01073
+  vmImage: Default
 
 steps:
 - task: Maven@3
