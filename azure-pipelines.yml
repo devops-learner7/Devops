@@ -7,7 +7,9 @@ trigger:
 - main
 
 pool:
-  vmImage: Default
+  name: 'Default'
+  demands:
+    - Agent.Name -equals VDST01073
 
 steps:
 - task: Maven@3
